@@ -9,8 +9,8 @@ public class Seat {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
 
 	private int seatId;
-	private String availability;
-	private int seatNumber;
+	private boolean available;
+	private String seatNumber;
 	
 	//multiple seats can be booked for one booking
 	@ManyToOne
@@ -28,10 +28,10 @@ public class Seat {
 	}
 
 
-	public Seat(int seatId, String availability, int seatNumber, Booking booking, Bus bus) {
+	public Seat(int seatId, boolean available, String seatNumber, Booking booking, Bus bus) {
 		super();
 		this.seatId = seatId;
-		this.availability = availability;
+		this.available = available;
 		this.seatNumber = seatNumber;
 		this.booking = booking;
 		this.bus = bus;
@@ -48,22 +48,22 @@ public class Seat {
 	}
 
 
-	public String getAvailability() {
-		return availability;
+	public boolean isAvailable() {
+		return available;
 	}
 
 
-	public void setAvailability(String availability) {
-		this.availability = availability;
+	public void setAvailable(boolean available) {
+		this.available = available;
 	}
 
 
-	public int getSeatNumber() {
+	public String getSeatNumber() {
 		return seatNumber;
 	}
 
 
-	public void setSeatNumber(int seatNumber) {
+	public void setSeatNumber(String seatNumber) {
 		this.seatNumber = seatNumber;
 	}
 
@@ -90,8 +90,8 @@ public class Seat {
 
 	@Override
 	public String toString() {
-		return String.format("Seat [seatId=%s, availability=%s, seatNumber=%s, booking=%s, bus=%s]", seatId,
-				availability, seatNumber, booking, bus);
+		return String.format("Seat [seatId=%s, availability=%b, seatNumber=%s, booking=%s, bus=%s]", seatId,
+				available, seatNumber, booking, bus);
 	}
 	
 	
