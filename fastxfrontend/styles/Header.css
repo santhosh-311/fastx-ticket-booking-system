@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    z-index: 2;
+    position:sticky;
+    top: 0;
+    box-shadow: 0 1px 10px gray;
+  }
+  
+  .logo {
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  .menu-box{
+    display: flex;
+  }
+
+  .header-btns{
+    display: flex;
+    gap: 10px;
+  }
+
+  .user-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logout-btn{
+    font-size: 20px;
+    /* border: 2px solid #363636; */
+    background: #1890ff;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+
+    &:hover,
+    &:focus{
+      transition: 0.5s ease-in-out;
+      transform: scale(1.2);
+    }
+  }
+
+  .signup-link-btn{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #1890ff;
+    cursor: pointer;
+  }
+
+  .form-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-left,.form-right
+  {
+    flex-basis: 47%;
+  }
+  

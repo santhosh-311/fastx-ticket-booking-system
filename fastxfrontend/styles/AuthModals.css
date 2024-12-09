@@ -1,0 +1,111 @@
+.ant-modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .ant-modal-header {
+    background-color: #121212; /* Dark Background */
+    border-bottom: none;
+  }
+  
+  .ant-modal {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .ant-modal-content {
+    background-color: #181818; /* Modal background color */
+    color: #ffffff; /* Text color */
+  }
+  
+  .ant-modal-footer {
+    display: none; /* Remove the default footer */
+  }
+  
+  .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  /* Styling for Input Fields */
+  .ant-input,
+  .ant-input-password {
+    /* background-color: #2c2c2c; */
+    color: #ffffff;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    height: 40px;
+  }
+  
+  .ant-input:focus,
+  .ant-input-password:focus {
+    border-color: #1890ff; /* Highlight border color on focus */
+    box-shadow: 0 0 5px rgba(24, 144, 255, 0.5);
+  }
+  
+  .ant-input::placeholder,
+  .ant-input-password::placeholder {
+    color: #b3b3b3; /* Placeholder color */
+  }
+  
+  /* Styling for Buttons */
+  .ant-btn-primary {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .ant-btn-primary:hover,
+  .ant-btn-primary:focus {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .ant-btn {
+    /* height: 45px; */
+    border-radius: 5px;
+    padding: 7px;
+    /* font-size: 16px; */
+  }
+  
+  /* Google Sign-In Button */
+  .ant-btn-default {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #4a4a4a;
+  }
+  
+  .ant-btn-default:hover {
+    background-color: #f5f5f5;
+    border-color: #1890ff;
+    color: #1890ff;
+  }
+  
+  /* Divider */
+  .ant-divider-inner-text {
+    color: #b3b3b3;
+    font-size: 14px;
+  }
+  
+  /* Links */
+  a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Privacy Policy & Terms Text */
+  .terms-text {
+    font-size: 12px;
+    color: #b3b3b3;
+    text-align: center;
+  }

@@ -1,0 +1,22 @@
+.section{
+    padding-top: 0 !important;
+}
+
+.sec{
+    padding-bottom: 0 !important;
+    height: 80vh;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1890ff;
+    border-radius: 6px;
+}

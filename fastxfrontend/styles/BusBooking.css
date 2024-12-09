@@ -1,0 +1,197 @@
+/* Container */
+.bus-booking-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Journey details */
+.journey-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.journey-details-left {
+    flex: 1;
+    text-align: left;
+}
+
+.journey-details-left h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.journey-details-left .timing p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.journey-details-right {
+    flex: 1;
+    text-align: right;
+}
+
+.journey-details-right h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.journey-details-right p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Main content layout */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Seat layout */
+.seat-layout {
+    flex: 3;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.seat.booked {
+    background-color: #f44336;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.seat.cursor-block {
+    cursor: not-allowed;
+}
+
+.seat.blocked {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Selected Seat */
+.seat.selected {
+    background-color: #1888ff;
+    color: #fff;
+    border: 1px solid #0056b3;
+}
+
+.seat-spacer {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.drivers-seat {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ddd;
+    margin: 5px;
+}
+
+/* Ticket summary */
+.ticket-summary {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.ticket-summary h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ticket-summary p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.ticket-summary .total {
+    margin-bottom: 20px;
+}
+
+.ticket-summary button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.seat-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seat-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.box.white {
+    background-color: white;
+}
+
+.box.red {
+    background-color: red;
+}
+
+.box.blue {
+    background-color: #1888ff;
+}
+
+.box.gray {
+    background-color: #555;
+}
+
+.seat-info .box-info {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 5px;
+}

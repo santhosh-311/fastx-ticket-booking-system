@@ -1,0 +1,61 @@
+.booking-card{
+    box-shadow: 0 0 10px #818181;
+   }
+  
+   .bus-routes{
+    font-weight: 600;
+    font-size: 17px;
+   }
+  
+   .booking-card p{
+    margin: 0;
+   }
+  
+   .ant-card-body{
+    padding: 10px 20px !important;
+   }
+
+   .top-btn-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+  }
+  
+  .top-btn {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .top-btn.active {
+    color: #1890ff;
+    border-bottom-color: #1890ff;
+  }
+  
+  .top-btn.inactive {
+    color: gray; 
+    border-bottom-color: gray;
+  }
+  .check-icon,.pending-icon,.cancel-icon{
+    font-size: 20px;
+  }
+
+  .check-icon{
+    color: green;
+  }
+
+  .pending-icon{
+    color: orange;
+  }
+
+  .cancel-icon{
+    color: red;
+  }
+  /* ,FieldTimeOutlined,CloseCircleOutlined */

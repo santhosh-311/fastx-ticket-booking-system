@@ -1,0 +1,30 @@
+.section {
+    background-color: #f0f2f5;
+    padding: 60px 0;
+
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 40px !important;
+  }
+  
+  .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 14rem;
+    /* justify-content: center; */
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #52c41a;
+    margin-right: 12px;
+  }
+  
+  .reasonText {
+    font-size: 16px;
+  }
+  
+  

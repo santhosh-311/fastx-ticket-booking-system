@@ -1,0 +1,28 @@
+.top-btn-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-left: 3rem !important;
+    margin-top: 1rem !important;
+  }
+  
+  .top-btn {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .top-btn.active {
+    color: #1890ff;
+    border-bottom-color: #1890ff;
+  }
+  
+  .top-btn.inactive {
+    color: gray; 
+    border-bottom-color: gray;
+  }
